@@ -1,0 +1,95 @@
+body {
+  position: relative;
+  background: linear-gradient(90deg, #1CB5E0, #302391c4);
+  background-size: 400% 400%;
+  animation: gradientbg 10s ease infinite;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  height: 100vh;
+  margin: 0;
+} 
+
+		@keyframes gradientbg {
+			0% {
+				background-position: 0 0;
+			}
+			50% {
+				background-position: 100% 0;
+			}
+			100% {
+				background-position: 0 0;
+			}
+		}
+		
+header {
+		background-color: #1abc9c;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+	}
+.login-page {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.form {
+  background-color: #512f2f1f;
+  box-shadow: 0px 10px 20px #D9D9D9;
+  padding: 40px;
+  width: 400px;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px 0px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form .button {
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.form .button:hover {
+  background-color: #0069D9;
+}
+
+.message {
+  color: #7F8FA4;
+  font-size: 14px;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.message a {
+  color: #007BFF;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.message a:hover {
+  text-decoration: underline;
+}
+h1{
+	text-align: center;
+}
+select {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
